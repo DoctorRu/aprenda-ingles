@@ -30,7 +30,7 @@ class _NumerosState extends State<Numeros> {
     }
 
     return GridView.count(
-      crossAxisCount: 3,
+      crossAxisCount: 2,
       scrollDirection: Axis.vertical,
       childAspectRatio: MediaQuery.of(context).size.aspectRatio *
           2, // reduz espaçamento entre itens
